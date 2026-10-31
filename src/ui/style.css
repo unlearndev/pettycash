@@ -1,0 +1,62 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #f7f7f5;
+  color: #1d1d1b;
+}
+header {
+  padding: 1.5rem 2rem 0.5rem;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+header p {
+  margin: 0.2rem 0 0;
+  color: #6b6b66;
+}
+main {
+  padding: 0 2rem 2rem;
+}
+#summary {
+  margin: 1rem 0;
+  font-weight: 600;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+th,
+td {
+  text-align: left;
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid #ecece8;
+  vertical-align: top;
+}
+td small {
+  display: block;
+  color: #8a8a84;
+}
+.amount {
+  font-variant-numeric: tabular-nums;
+}
+.flag {
+  color: #b54708;
+  font-weight: 700;
+}
+.status {
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  background: #eef;
+}
+.status.approved {
+  background: #e3f5e8;
+}
+.status.rejected {
+  background: #fde8e6;
+}
+button {
+  margin-right: 0.3rem;
+}

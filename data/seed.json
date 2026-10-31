@@ -1,0 +1,69 @@
+[
+  {
+    "id": "PC-1001",
+    "employee": "Priya",
+    "category": "travel",
+    "description": "Train to Leeds for the client workshop",
+    "amountPence": 8650,
+    "spentOn": "2026-10-06",
+    "receipt": "receipts/pc-1001.pdf",
+    "status": "approved",
+    "decidedBy": "Alex",
+    "problems": []
+  },
+  {
+    "id": "PC-1002",
+    "employee": "Sam",
+    "category": "equipment",
+    "description": "USB-C hub",
+    "amountPence": 3499,
+    "spentOn": "2026-10-13",
+    "receipt": "receipts/pc-1002.pdf",
+    "status": "approved",
+    "decidedBy": "Alex",
+    "problems": []
+  },
+  {
+    "id": "PC-1003",
+    "employee": "Jo",
+    "category": "meals",
+    "description": "Team lunch after the launch",
+    "amountPence": 4120,
+    "spentOn": "2026-10-17",
+    "receipt": "receipts/pc-1003.jpg",
+    "status": "submitted",
+    "problems": ["meals claims are limited to 2500 pence"]
+  },
+  {
+    "id": "PC-1004",
+    "employee": "Priya",
+    "category": "software",
+    "description": "Annual licence for the diagram tool",
+    "amountPence": 9600,
+    "spentOn": "2026-10-20",
+    "receipt": "receipts/pc-1004.pdf",
+    "status": "submitted",
+    "problems": []
+  },
+  {
+    "id": "PC-1005",
+    "employee": "Sam",
+    "category": "travel",
+    "description": "Taxi from the station",
+    "amountPence": 1840,
+    "spentOn": "2026-10-22",
+    "status": "submitted",
+    "problems": ["a receipt is required over £10"]
+  },
+  {
+    "id": "PC-1006",
+    "employee": "Jo",
+    "category": "other",
+    "description": "Printer paper",
+    "amountPence": 799,
+    "spentOn": "2026-10-24",
+    "status": "rejected",
+    "decidedBy": "Alex",
+    "problems": []
+  }
+]
