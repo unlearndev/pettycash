@@ -3,5 +3,30 @@
     "allow": ["Bash(npm run *)", "Bash(npm test *)"],
     "ask": ["Bash(git push *)"],
     "deny": ["Read(./.env)"]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": ["${CLAUDE_PROJECT_DIR}/.claude/hooks/format.mjs"]
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": ["${CLAUDE_PROJECT_DIR}/.claude/hooks/check.mjs"]
+          }
+        ]
+      }
+    ]
   }
 }
