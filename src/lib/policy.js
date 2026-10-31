@@ -3,7 +3,7 @@
 export const CATEGORIES = ['travel', 'meals', 'equipment', 'software', 'other']
 
 export const LIMITS = {
-  meals: 2500, // per claim
+  meals: 3000, // per claim
   equipment: 50000,
 }
 

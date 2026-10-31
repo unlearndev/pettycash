@@ -7,7 +7,7 @@ describe('expenses policy', () => {
   })
 
   it('flags a meal over the limit', () => {
-    expect(checkPolicy({ category: 'meals', amountPence: 3000, receipt: 'r.jpg' })).toHaveLength(1)
+    expect(checkPolicy({ category: 'meals', amountPence: 3500, receipt: 'r.jpg' })).toHaveLength(1)
   })
 
   it('needs a receipt over £10', () => {

@@ -17,8 +17,8 @@ describe('claims API', () => {
   })
 
   it('records policy problems on the claim', () => {
-    const result = submitClaim(tempStore(), claim({ category: 'meals', amountPence: 3000 }))
-    expect(result.body.problems).toEqual(['meals claims are limited to 2500 pence'])
+    const result = submitClaim(tempStore(), claim({ category: 'meals', amountPence: 3500 }))
+    expect(result.body.problems).toEqual(['meals claims are limited to 3000 pence'])
   })
 
   it('approves a submitted claim', () => {
