@@ -14,6 +14,12 @@ Agreed by the payments team. We run it as a two-week pilot with Alex, Priya and 
 | 8   | We track usage, cost and the commands the agent runs, per person, and never what anyone types. | Telemetry from managed settings, with prompts left out                                  |
 | 9   | We review this policy at the end of the pilot, then every quarter.                             | People                                                                                  |
 
+## After the pilot
+
+- People were asked to approve the test runner (`npx vitest run` with a test file) over and over, so the project's settings now allow it.
+- `git push` still asks every time. That's rule 3 doing its job, so it stays.
+- Next review: at the end of the quarter, with the same dashboard.
+
 ## Personal setup
 
 Your own preferences, like how short you want answers, stay in your own files: `~/.claude/CLAUDE.md`, `CLAUDE.local.md` or `.claude/settings.local.json`. None of them are committed.
