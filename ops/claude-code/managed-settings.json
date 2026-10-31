@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "deny": ["Read(//**/.env)"],
+    "disableBypassPermissionsMode": "disable"
+  },
+  "companyAnnouncements": [
+    "Pettycash: how we use Claude Code is in docs/ai-policy.md. Questions go to Alex."
+  ]
+}
